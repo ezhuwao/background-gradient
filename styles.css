@@ -1,0 +1,76 @@
+.nav-bar{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background:linear-gradient(to bottom, white, black);
+    background-image: url(/images/apple_logo.png) 16px 44px no-repeat;
+   /* width: max-content;*/
+    position: relative;
+    left: 20%;
+    margin: 10% auto;
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #f5f5f7;
+    position: relative;
+   /* z-index: 1;*/
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    white-space: nowrap;
+    outline-offset: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.apple-logo{
+    background-image: url(/images/apple_logo.png);
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    /*width: 16px;*/  
+}
+
+ul li {
+    color: whitesmoke;
+    list-style-type: none;
+    display: inline;
+    padding: 20px; 
+  /*  border: 0.1px solid white;*/
+}
+
+.main-body{
+   /* height: 1000px;*/
+    background: url(/images/your_verse_hero.jpg) 20px -500px no-repeat;
+}
+
+.body-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.14286;
+    text-align: center;
+    
+}
+.major-text{
+    font-size: 36px;
+}
+#second-line{
+    font-size: medium;
+}
+.apple-ads {
+    display: flex;
+    justify-content: space-around;
+}
+
+ol li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 5px;
+    border-right: grey solid 2px;
+}
+
+.linksnav {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
